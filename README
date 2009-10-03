@@ -1,0 +1,26 @@
+ri-emacs is a package to bind ruby's ri function to a key (usually
+control-H r) The ri-ruby.el file has a brief how to for installing
+things.
+
+Currently this is working for me.  I'm running it on a Mac with
+10.5, emacs 23.1, and ruby 1.9.1 p243.  It is suppose to be able
+to work with both levels of rdoc (new version 2 and older version).
+And I use to use it with Ruby 1.8.6 and emacs 22.  But I find the
+whole thing very touchy and hard to keep working.
+
+Hopefully, you will be able to find it useful.
+
+The original author is Kristof Bastiaensen <kristof@vleeuwen.org>
+
+I'm posting my changes here with his permission.  My name is Perry
+Smith.  You can reach me at <pedz@easesoftware.com>.
+
+Probably 90% of the code is the original code.  I've mostly just
+worked on it to keep it working for me.  The one big feature I added
+is when a page is displayed, it has "hot" areas that you can click
+and it will take you to the ruby info for that item.  For example,
+if you do help on Strings, each of the methods will be hot so you
+can click on it and it will take you to String#to_i for example.
+
+There is also tons of debugging support in both the lisp and the
+ruby code so that you can see what is happening.
