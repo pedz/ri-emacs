@@ -1,3 +1,17 @@
+
+NOTE: I am abandoning this project in favor of yari.  I have added
+the same button features to yari that I added to ri-emacs.  ri-emacs
+is just too fragile to maintain since the interfaces to rdoc keep
+changing.  yari calls "ri" directly so it is far more stable.  Also,
+I plan to add some features to yari to interact with rvm better.
+By calling ri via rvm along with adding project specific rdoc
+directories, emacs will be able to access the documentation specific
+to the project's version of Ruby, gems, and internal documentation.
+
+Please see: https://github.com/pedz/yari-with-buttons
+
+Original README Follows:::
+
 ri-emacs is a package to bind ruby's ri function to a key (usually
 control-H r) The ri-ruby.el file has a brief how to for installing
 things.
